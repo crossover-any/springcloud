@@ -9,9 +9,9 @@ spring:
   application:
     name: study-springcloud-dept  #应用名称
   datasource:
-    url: jdbc:mysql://116.62.47.183:3306/cloud?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
+    url: jdbc:mysql://116.62.47.183:3306/cloudDB01?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
     username: root
-    password: root
+    password: 980522
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 #druid连接池配置
@@ -34,7 +34,7 @@ connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 #Mybatis配置
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.gxs.springcloud.entities
+  type-aliases-package: com.springcloud.entity
   configuration:
     map-underscore-to-camel-case: true #开启驼峰命名
     cache-enabled: true #开启二级缓存
