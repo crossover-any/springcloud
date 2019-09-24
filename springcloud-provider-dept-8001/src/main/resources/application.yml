@@ -7,7 +7,7 @@ server:
 #数据库信息配置
 spring:
   application:
-    name: study-springcloud-dept  #应用名称
+    name: springcloud-provider-dept-8001  #应用名称
   datasource:
     url: jdbc:mysql://116.62.47.183:3306/cloudDB01?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
     username: root
@@ -38,3 +38,19 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true #开启驼峰命名
     cache-enabled: true #开启二级缓存
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  #主机实例
+  instance:
+    #主机实例名称，默认的很长一串不便于查看
+    instance-id: provider-dept-8001
+      #访问路径显示IP地址
+    prefer-ip-address: true
+
+info:
+  app.name: microservicecloud
+  company.name: www.txq.com
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
