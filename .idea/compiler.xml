@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-api" />
         <module name="microservicecloudapi" />
+        <module name="springcloud-config-3344" />
+        <module name="springcloud-config-client-3355" />
         <module name="springcloud-consumer-dept-80" />
         <module name="springcloud-consumer-dept-feign" />
         <module name="springcloud-consumer-dept-feign-8088" />
@@ -19,11 +21,14 @@
         <module name="springcloud-provider-dept-8002" />
         <module name="springcloud-provider-dept-8003" />
         <module name="springcloud-provider-dept-hystrix" />
+        <module name="springcloud-zuul-gateway-9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservicecloud" target="1.8" />
       <module name="microservicecloud-api" target="1.8" />
+      <module name="springcloud-config-3344" target="1.8" />
+      <module name="springcloud-config-client-3355" target="1.8" />
       <module name="springcloud-consumer-dept-80" target="1.8" />
       <module name="springcloud-consumer-dept-feign" target="1.8" />
       <module name="springcloud-consumer-dept-feign-8088" target="1.8" />
@@ -35,6 +40,7 @@
       <module name="springcloud-provider-dept-8002" target="1.8" />
       <module name="springcloud-provider-dept-8003" target="1.8" />
       <module name="springcloud-provider-dept-hystrix" target="1.8" />
+      <module name="springcloud-zuul-gateway-9527" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
