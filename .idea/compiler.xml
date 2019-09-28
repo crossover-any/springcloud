@@ -11,6 +11,7 @@
         <module name="springcloud-consumer-dept-80" />
         <module name="springcloud-consumer-dept-feign" />
         <module name="springcloud-consumer-dept-feign-8088" />
+        <module name="springcloud-consumer-hystrix-dashboard" />
         <module name="springcloud-eureka-7001" />
         <module name="springcloud-eureka-7002" />
         <module name="springcloud-eureka-7003" />
@@ -26,6 +27,7 @@
       <module name="springcloud-consumer-dept-80" target="1.8" />
       <module name="springcloud-consumer-dept-feign" target="1.8" />
       <module name="springcloud-consumer-dept-feign-8088" target="1.8" />
+      <module name="springcloud-consumer-hystrix-dashboard" target="1.8" />
       <module name="springcloud-eureka-7001" target="1.8" />
       <module name="springcloud-eureka-7002" target="1.8" />
       <module name="springcloud-eureka-7003" target="1.8" />
