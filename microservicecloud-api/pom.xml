@@ -16,5 +16,10 @@
             <artifactId>lombok</artifactId>
             <version>1.18.6</version>
         </dependency>
+        <!--增加Feign的依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
     </dependencies>
 </project>
